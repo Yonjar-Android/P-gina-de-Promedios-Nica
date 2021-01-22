@@ -1,0 +1,22 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+img {
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	right : 15%;
+	top: 25%;
+}
+body{
+	font-family: cambria;
+	background-color: #e93;
+	font-size: 2em;
+    margin: 50px 50px;
+    border: 5px solid #000;
+}

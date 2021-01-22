@@ -1,0 +1,27 @@
+let alumno = prompt("Nombre del Alumno(a)")
+
+let Matemáticas=prompt("Nota de Matemáticas")
+let Lengua=prompt("Nota de Lengua y Literatura");
+let AEP=prompt("Nota de AEP")
+let Química=prompt("Nota de Ciencias Naturales")
+let EducaciónF=prompt("Nota de Educación Física")
+let Geografía=prompt("Nota de Estudios Sociales")
+let Tac=prompt("Nota de Tac")
+let Inglés=prompt("Nota de Inglés")
+let Valores=prompt("Nota de Creciendo en Valores")
+let Conducta=prompt("Nota de Conducta")
+let sumatorio= parseInt(Matemáticas)+parseInt(Lengua)+parseInt(AEP)+parseInt(Química)+parseInt(EducaciónF)
++parseInt(Geografía)+parseInt(Inglés)+parseInt(Tac)+parseInt(Valores)
+let promediar= 9;
+document.write(alumno + " = ");
+document.write(sumatorio / promediar + "<br>")
+document.write("Matemáticas" + "= " + Matemáticas + "<br>")
+document.write("Lengua y Literatura" + "= " + Lengua + "<br>")
+document.write("AEP" + "= " + AEP + "<br>")
+document.write("Ciencias Naturales" + "= " + Química + "<br>")
+document.write("Educación Física" + "= " + EducaciónF + "<br>")
+document.write("Estudios Sociales" + "= " + Geografía + "<br>")
+document.write("Tac" + "= " + Tac + "<br>")
+document.write("Inglés" + "= " + Inglés + "<br>")
+document.write("Creciendo en Valores" + "= " + Valores + "<br>")
+document.write("Conducta" + "= " + Conducta + "<br>")
