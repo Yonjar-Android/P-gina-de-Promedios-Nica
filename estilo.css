@@ -6,13 +6,7 @@
 h1 {
 	text-align: center;
 }
-img {
-	width: 500px;
-	height: 350px;
-	position: absolute;
-	right : 15%;
-	top: 25%;
-}
+
 body{
 	font-family: cambria;
 	background-color: #e93;
